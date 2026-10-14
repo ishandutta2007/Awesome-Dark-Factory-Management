@@ -4,10 +4,12 @@
 
 # 🏭 Awesome Dark Factory Management
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Dark-Factory-Management/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)](https://github.com/ishandutta2007/Awesome-Dark-Factory-Management/graphs/commit-activity)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 **A Curated Index of SaaS Platforms & Open-Source Software for Autonomous Production, Lights-Out Operations, and Agentic MES**
 
@@ -26,6 +28,8 @@
 - [🏗️ Blueprint Architecture for a Self-Hosted Dark Factory](#️-blueprint-architecture-for-a-self-hosted-dark-factory)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [⚠️ Safety & Industrial Disclaimers](#️-safety--industrial-disclaimers)
+- [⭐ Star History](#--star-history)
+- [💖 Support](#-support)
 
 ---
 
@@ -205,3 +209,29 @@ Contributions from manufacturing engineers, software architects, and industrial 
 
 > [!WARNING]
 > **Emerging Open-Source Maturity**: While open-source MES and IIoT tools are advancing rapidly, end-to-end autonomous orchestration requires careful integration testing. Always validate agentic decision-making, automated tool invocations, and PackML state transitions in simulated environments (such as deterministic CI digital twins) prior to commissioning live manufacturing equipment.
+
+---
+
+##  Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Dark-Factory-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Dark-Factory-Management&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+A huge thank you to everyone exploring, testing, and advancing autonomous dark factory ecosystems! 🙌
+
+If you find this repository valuable, please consider supporting it:
+- ⭐ **Star this repository** to help others discover it across GitHub.
+- 🍴 **Fork and contribute** your tools, architectures, and benchmarks.
+- 📢 **Share this guide** with colleagues, manufacturing engineers, and automation teams.
+- ☕ **Buy a coffee & sponsor** ongoing research and maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<div align="center">
+
+<a href="https://github.com/sponsors/ishandutta2007">
+  <img src="https://img.shields.io/badge/Sponsor%20me-%E2%99%A5-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+</a>
+
+</div>
