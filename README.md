@@ -76,75 +76,75 @@ The table below catalogs leading commercial SaaS solutions designed for dark fac
 
 ## 💻 Open-Source Projects & Frameworks
 
-Open-source technologies form the backbone of modern, vendor-independent dark factories. The curated repositories below are equipped with live star badges and sorted in **descending order of GitHub stars**.
+Open-source technologies form the backbone of modern, vendor-independent dark factories. The curated repositories below are equipped with live Stars_Badges and sorted in **descending order of GitHub_Stars**.
 
-1. 📦 **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
+1. 📦 **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
    Full-featured, open-source ERP system featuring an extensive **Manufacturing & MES module** (license: GPL-3.0). Automates production order scheduling, nested multi-level Bills of Materials (BOM), work order routing, job card assignment, and capacity planning.
 
-2. 🔀 **[Node-RED](https://github.com/node-red/node-red)** [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)  
+2. 🔀 **[Node-RED](https://github.com/node-red/node-red)** [![GitHub_Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)  
    Low-code visual programming tool for event-driven industrial applications (license: Apache-2.0). Connects shop-floor hardware, industrial PLCs, and cloud APIs with drag-and-drop nodes supporting OPC UA, Modbus, MQTT, and Siemens S7.
 
-3. 📊 **[ThingsBoard](https://github.com/thingsboard/thingsboard)** [![GitHub stars](https://img.shields.io/github/stars/thingsboard/thingsboard?style=social&color=white)](https://github.com/thingsboard/thingsboard/stargazers)  
+3. 📊 **[ThingsBoard](https://github.com/thingsboard/thingsboard)** [![GitHub_Stars](https://img.shields.io/github/stars/thingsboard/thingsboard?style=social&color=white)](https://github.com/thingsboard/thingsboard/stargazers)  
    Open-source IoT platform for device telemetry collection, processing, and real-time visualization (license: Apache-2.0). Provides rule-engine automation, device digital twinning, alarms, and MQTT/CoAP/HTTP device connectivity for factory telemetry.
 
-4. 📡 **[EMQX](https://github.com/emqx/emqx)** [![GitHub stars](https://img.shields.io/github/stars/emqx/emqx?style=social&color=white)](https://github.com/emqx/emqx/stargazers)  
+4. 📡 **[EMQX](https://github.com/emqx/emqx)** [![GitHub_Stars](https://img.shields.io/github/stars/emqx/emqx?style=social&color=white)](https://github.com/emqx/emqx/stargazers)  
    Ultra-scalable open-source MQTT platform for IIoT and connected vehicles (license: Apache-2.0). Supports 100M+ concurrent MQTT connections, sub-millisecond latency, and native Sparkplug B compliance for building resilient Unified Namespaces (UNS).
 
-5. 🖼️ **[Albumentations](https://github.com/albumentations-team/albumentations)** [![GitHub stars](https://img.shields.io/github/stars/albumentations-team/albumentations?style=social&color=white)](https://github.com/albumentations-team/albumentations/stargazers)  
+5. 🖼️ **[Albumentations](https://github.com/albumentations-team/albumentations)** [![GitHub_Stars](https://img.shields.io/github/stars/albumentations-team/albumentations?style=social&color=white)](https://github.com/albumentations-team/albumentations/stargazers)  
    High-performance image augmentation library (license: MIT) widely deployed across manufacturing inspection pipelines to boost deep learning model accuracy in surface defect classification and optical sorting.
 
-6. 🔍 **[Anomalib](https://github.com/open-edge-platform/anomalib)** [![GitHub stars](https://img.shields.io/github/stars/open-edge-platform/anomalib?style=social&color=white)](https://github.com/open-edge-platform/anomalib/stargazers)  
+6. 🔍 **[Anomalib](https://github.com/open-edge-platform/anomalib)** [![GitHub_Stars](https://img.shields.io/github/stars/open-edge-platform/anomalib?style=social&color=white)](https://github.com/open-edge-platform/anomalib/stargazers)  
    Deep learning anomaly detection library for industrial quality inspection (license: Apache-2.0). Implements state-of-the-art algorithms (PatchCore, PaDiM, Reverse Distillation) for zero-shot and few-shot unsupervised visual defect detection.
 
-7. 🔌 **[open62541](https://github.com/open62541/open62541)** [![GitHub stars](https://img.shields.io/github/stars/open62541/open62541?style=social&color=white)](https://github.com/open62541/open62541/stargazers)  
+7. 🔌 **[open62541](https://github.com/open62541/open62541)** [![GitHub_Stars](https://img.shields.io/github/stars/open62541/open62541?style=social&color=white)](https://github.com/open62541/open62541/stargazers)  
    Open-source C implementation of OPC UA (OPC Unified Architecture) under Mozilla Public License v2.0. Highly optimized for embedded microcontrollers, edge gateways, and real-time PLCs requiring secure M2M industrial communication.
 
-8. ⚙️ **[LinuxCNC](https://github.com/LinuxCNC/linuxcnc)** [![GitHub stars](https://img.shields.io/github/stars/LinuxCNC/linuxcnc?style=social&color=white)](https://github.com/LinuxCNC/linuxcnc/stargazers)  
+8. ⚙️ **[LinuxCNC](https://github.com/LinuxCNC/linuxcnc)** [![GitHub_Stars](https://img.shields.io/github/stars/LinuxCNC/linuxcnc?style=social&color=white)](https://github.com/LinuxCNC/linuxcnc/stargazers)  
    Real-time motion control system for CNC mills, lathes, 3D printers, laser cutters, and robotic arms (license: GPL-2.0). Coordinates up to 9 axes of motion with PREEMPT_RT or RTAI kernel integration for deterministic machining.
 
-9. 🎯 **[OpenPnP](https://github.com/openpnp/openpnp)** [![GitHub stars](https://img.shields.io/github/stars/openpnp/openpnp?style=social&color=white)](https://github.com/openpnp/openpnp/stargazers)  
+9. 🎯 **[OpenPnP](https://github.com/openpnp/openpnp)** [![GitHub_Stars](https://img.shields.io/github/stars/openpnp/openpnp?style=social&color=white)](https://github.com/openpnp/openpnp/stargazers)  
    Open-source software for pick-and-place surface mount technology (SMT) assembly machines (license: GPL-3.0). Uses computer vision for fiducial alignment, nozzle calibration, and autonomous electronic component placement.
 
-10. 🏭 **[Apache PLC4X](https://github.com/apache/plc4x)** [![GitHub stars](https://img.shields.io/github/stars/apache/plc4x?style=social&color=white)](https://github.com/apache/plc4x/stargazers)  
+10. 🏭 **[Apache PLC4X](https://github.com/apache/plc4x)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/plc4x?style=social&color=white)](https://github.com/apache/plc4x/stargazers)  
     Universal protocol adapter library for industrial PLCs (license: Apache-2.0). Reads and writes machine state across Siemens S7, Beckhoff ADS, Modbus, Allen-Bradley EtherNet/IP, and Omron Fins without requiring proprietary drivers.
 
-11. ☕ **[Eclipse Milo](https://github.com/eclipse-milo/milo)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-milo/milo?style=social&color=white)](https://github.com/eclipse-milo/milo/stargazers)  
+11. ☕ **[Eclipse Milo](https://github.com/eclipse-milo/milo)** [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-milo/milo?style=social&color=white)](https://github.com/eclipse-milo/milo/stargazers)  
     Pure Java open-source implementation of OPC UA client and server stacks (license: EPL-2.0). Extensively utilized in enterprise Java MES, SCADA bridges, and industrial microservices.
 
-12. 📋 **[qcadoo MES](https://github.com/qcadoo/mes)** [![GitHub stars](https://img.shields.io/github/stars/qcadoo/mes?style=social&color=white)](https://github.com/qcadoo/mes/stargazers)  
+12. 📋 **[qcadoo MES](https://github.com/qcadoo/mes)** [![GitHub_Stars](https://img.shields.io/github/stars/qcadoo/mes?style=social&color=white)](https://github.com/qcadoo/mes/stargazers)  
     Open-source web manufacturing execution system tailored for small and medium manufacturing enterprises (license: AGPL-3.0). Covers production scheduling, bill of materials, inventory management, and workstation order fulfillment.
 
-13. 🎛️ **[JSON-SCADA](https://github.com/riclolsen/json-scada)** [![GitHub stars](https://img.shields.io/github/stars/riclolsen/json-scada?style=social&color=white)](https://github.com/riclolsen/json-scada/stargazers)  
+13. 🎛️ **[JSON-SCADA](https://github.com/riclolsen/json-scada)** [![GitHub_Stars](https://img.shields.io/github/stars/riclolsen/json-scada?style=social&color=white)](https://github.com/riclolsen/json-scada/stargazers)  
     Portable, scalable SCADA, IIoT, and Industry 4.0 data platform running in an all-in-one Docker stack (license: Apache-2.0). Features MongoDB, PostgreSQL/TimescaleDB, Grafana, OPC UA, DNP3, IEC 60870-5-104, and MQTT Sparkplug B.
 
-14. 🌐 **[Unified Manufacturing Hub](https://github.com/united-manufacturing-hub/united-manufacturing-hub)** [![GitHub stars](https://img.shields.io/github/stars/united-manufacturing-hub/united-manufacturing-hub?style=social&color=white)](https://github.com/united-manufacturing-hub/united-manufacturing-hub/stargazers)  
+14. 🌐 **[Unified Manufacturing Hub](https://github.com/united-manufacturing-hub/united-manufacturing-hub)** [![GitHub_Stars](https://img.shields.io/github/stars/united-manufacturing-hub/united-manufacturing-hub?style=social&color=white)](https://github.com/united-manufacturing-hub/united-manufacturing-hub/stargazers)  
     Open-source toolkit and reference architecture for Industrial IoT and Unified Namespaces (license: Apache-2.0). Features OPC UA to MQTT gateways, PackML line simulators, and Kafka/MQTT data broker connectors.
 
-15. 🧠 **[Industrial-ML](https://github.com/YKatser/Industrial-ML)** [![GitHub stars](https://img.shields.io/github/stars/YKatser/Industrial-ML?style=social&color=white)](https://github.com/YKatser/Industrial-ML/stargazers)  
+15. 🧠 **[Industrial-ML](https://github.com/YKatser/Industrial-ML)** [![GitHub_Stars](https://img.shields.io/github/stars/YKatser/Industrial-ML?style=social&color=white)](https://github.com/YKatser/Industrial-ML/stargazers)  
     Curated repository of industrial machine learning cases, open manufacturing benchmark datasets, academic papers, and anomaly detection codebases for predictive maintenance and process optimization.
 
-16. ⚡ **[Eclipse 4diac IDE](https://github.com/eclipse-4diac/4diac-ide)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-4diac/4diac-ide?style=social&color=white)](https://github.com/eclipse-4diac/4diac-ide/stargazers)  
+16. ⚡ **[Eclipse 4diac IDE](https://github.com/eclipse-4diac/4diac-ide)** [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-4diac/4diac-ide?style=social&color=white)](https://github.com/eclipse-4diac/4diac-ide/stargazers)  
     Open-source integrated development environment for distributed industrial control systems based on the IEC 61499 standard (license: EPL-2.0). Enables vendor-independent, event-driven control logic across multi-vendor PLCs.
 
-17. 🔬 **[Open AOI](https://github.com/ChrnyaevEK/open-aoi)** [![GitHub stars](https://img.shields.io/github/stars/ChrnyaevEK/open-aoi?style=social&color=white)](https://github.com/ChrnyaevEK/open-aoi/stargazers)  
+17. 🔬 **[Open AOI](https://github.com/ChrnyaevEK/open-aoi)** [![GitHub_Stars](https://img.shields.io/github/stars/ChrnyaevEK/open-aoi?style=social&color=white)](https://github.com/ChrnyaevEK/open-aoi/stargazers)  
     Automated Optical Inspection software for industrial camera feeds. Features intuitive graphical inspection configuration, template matching, edge verification, and defect alarms.
 
-18. 🤖 **[FactorySemantics MES](https://github.com/factorysemantics/factorysemantics-mes)** [![GitHub stars](https://img.shields.io/github/stars/factorysemantics/factorysemantics-mes?style=social&color=white)](https://github.com/factorysemantics/factorysemantics-mes/stargazers)  
+18. 🤖 **[FactorySemantics MES](https://github.com/factorysemantics/factorysemantics-mes)** [![GitHub_Stars](https://img.shields.io/github/stars/factorysemantics/factorysemantics-mes?style=social&color=white)](https://github.com/factorysemantics/factorysemantics-mes/stargazers)  
     Modular, **agent-native Manufacturing Execution System** (license: Apache-2.0) built on ISA-95, PackML, and ISO 22400 KPIs. Integrates REST and Model Context Protocol (MCP) tool calls, append-only audit spines, and deterministic plant simulation over OPC UA.
 
-19. 🕹️ **[OSOlogic Platform](https://github.com/OSOlogic/platform)** [![GitHub stars](https://img.shields.io/github/stars/OSOlogic/platform?style=social&color=white)](https://github.com/OSOlogic/platform/stargazers)  
+19. 🕹️ **[OSOlogic Platform](https://github.com/OSOlogic/platform)** [![GitHub_Stars](https://img.shields.io/github/stars/OSOlogic/platform?style=social&color=white)](https://github.com/OSOlogic/platform/stargazers)  
     Open-source software PLC platform (license: AGPL-3.0) turning any microcontroller (RP2040, STM32, ESP32) or Linux PC into a real-time programmable logic controller accessible via SQL, REST, and OPC UA.
 
-20. 🌾 **[Agrync](https://github.com/ManuelMuRodriguez/Agrync)** [![GitHub stars](https://img.shields.io/github/stars/ManuelMuRodriguez/Agrync?style=social&color=white)](https://github.com/ManuelMuRodriguez/Agrync/stargazers)  
+20. 🌾 **[Agrync](https://github.com/ManuelMuRodriguez/Agrync)** [![GitHub_Stars](https://img.shields.io/github/stars/ManuelMuRodriguez/Agrync?style=social&color=white)](https://github.com/ManuelMuRodriguez/Agrync/stargazers)  
     Open-source industrial IoT gateway unifying Modbus, OPC UA, and FIWARE protocols into a centralized web dashboard; validated on 1,200+ continuous sensor data points in production agro-industrial facilities.
 
-21. 🔒 **[OpenCore MES](https://github.com/opencore-mes/opencore-mes)** [![GitHub stars](https://img.shields.io/github/stars/opencore-mes/opencore-mes?style=social&color=white)](https://github.com/opencore-mes/opencore-mes/stargazers)  
+21. 🔒 **[OpenCore MES](https://github.com/opencore-mes/opencore-mes)** [![GitHub_Stars](https://img.shields.io/github/stars/opencore-mes/opencore-mes?style=social&color=white)](https://github.com/opencore-mes/opencore-mes/stargazers)  
     Low-code MES engine designed for advanced manufacturing up to 300mm semiconductor fabs (license: Apache-2.0). Features mandatory Design &rarr; Review &rarr; Approval &rarr; Execution workflows backed by hash-chained audit trails.
 
-22. 📈 **[InfluxDB 3 IIoT Reference Architecture](https://github.com/influxdata/influxdb3-ref-iiot)** [![GitHub stars](https://img.shields.io/github/stars/influxdata/influxdb3-ref-iiot?style=social&color=white)](https://github.com/influxdata/influxdb3-ref-iiot/stargazers)  
+22. 📈 **[InfluxDB 3 IIoT Reference Architecture](https://github.com/influxdata/influxdb3-ref-iiot)** [![GitHub_Stars](https://img.shields.io/github/stars/influxdata/influxdb3-ref-iiot?style=social&color=white)](https://github.com/influxdata/influxdb3-ref-iiot/stargazers)  
     Runnable automotive plant simulation (1 plant &times; 3 lines &times; 8 stations = 24 machines streaming ~300 points/sec) showcasing time-series ingestion, andon dashboards, and real-time Python analytics.
 
-23. 💎 **[Carbon MES](https://github.com/PabloOyarzo/carbon)** [![GitHub stars](https://img.shields.io/github/stars/PabloOyarzo/carbon?style=social&color=white)](https://github.com/PabloOyarzo/carbon/stargazers)  
+23. 💎 **[Carbon MES](https://github.com/PabloOyarzo/carbon)** [![GitHub_Stars](https://img.shields.io/github/stars/PabloOyarzo/carbon?style=social&color=white)](https://github.com/PabloOyarzo/carbon/stargazers)  
     Modern full-stack manufacturing ERP/MES/QMS suite built with Remix, TypeScript, Supabase, and Tailwind (license: AGPL-3.0). Supports nested BoMs, real-time database subscriptions, and MCP server endpoints.
 
 ---
@@ -197,7 +197,7 @@ Contributions from manufacturing engineers, software architects, and industrial 
 2. 🌿 **Create a topic branch**: `git checkout -b feature/add-new-tool`.
 3. 📝 **Add or update an entry**:
    - For **SaaS**: Include product name, hyperlinked official website, specific starting price, explicit free tier / trial limits, company valuation/revenue scale, and a concise technical description.
-   - For **Open-Source**: Provide the GitHub repo URL, the live Shields.io star badge (`?style=social&color=white`) linking to `/stargazers`, license type, and technical highlights. Sort by stars descending.
+   - For **Open-Source**: Provide the GitHub repo URL, the live Shields.io Stars_Badge (`?style=social&color=white`) linking to `/stargazers`, license type, and technical highlights. Sort by stars descending.
 4. 🚀 **Submit a Pull Request** with a brief summary of why the tool is essential for dark factory management.
 
 ---
