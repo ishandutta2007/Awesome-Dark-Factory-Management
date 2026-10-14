@@ -1,219 +1,207 @@
-# Awesome-Dark-Factory-Management
+<div align="center">
 
-## Top Dark Factory Management Ecosystem
+![Awesome Dark Factory Management](assets/banner.svg)
 
+# 🏭 Awesome Dark Factory Management
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Dark-Factory-Management/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)](https://github.com/ishandutta2007/Awesome-Dark-Factory-Management/graphs/commit-activity)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+**A Curated Index of SaaS Platforms & Open-Source Software for Autonomous Production, Lights-Out Operations, and Agentic MES**
 
-*Focused on Lights-Out Manufacturing, Autonomous Quality Inspection & Unattended Production*  
+*Optimized for Industrial IoT, Unattended Manufacturing Cells, Machine Vision AOI, and Zero-Operator Factory Floors*
 
-**Last updated: March 2026**
+</div>
 
+---
 
+## 📑 Table of Contents
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Dark Factory Management**. These tools enable manufacturers to run production with minimal or zero human presence on the floor—coordinating robots, vision systems, and MES layers autonomously while maintaining quality, traceability, and OEE visibility.
+- [🌟 Overview & SEO Taxonomy](#-overview--seo-taxonomy)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Enterprise Platforms](#-saas--hosted-enterprise-platforms)
+- [💻 Open-Source Projects & Frameworks](#-open-source-projects--frameworks)
+- [🏗️ Blueprint Architecture for a Self-Hosted Dark Factory](#️-blueprint-architecture-for-a-self-hosted-dark-factory)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Safety & Industrial Disclaimers](#️-safety--industrial-disclaimers)
 
+---
 
+## 🌟 Overview & SEO Taxonomy
 
-**Examples** include StrongDM, Cognite, Instrumental, Bright Machines, Augmentir, Plex Systems, Tulip Interfaces, Drishti, Arch Systems, and Retrocausal (the category leaders).
+A **Dark Factory** (also known as a **Lights-Out Factory**, **Unattended Facility**, or **Fully Autonomous Manufacturing Cell**) operates continuously with zero or near-zero human operators on the shop floor. Achieving true lights-out manufacturing requires the orchestration of five foundational digital and physical layers:
 
+1. 🤖 **Autonomous Workcells & Robotics**: Robotic arms, collaborative cobots, and AGVs/AMRs executing continuous material handling and assembly.
+2. 👁️ **Automated Optical Inspection (AOI) & Computer Vision**: High-speed, edge-deployed AI models performing defect detection, surface quality verification, and statistical process control in real time.
+3. ⚡ **Agent-Native Manufacturing Execution Systems (MES)**: Autonomous software coordinating ISA-95 dispatching, PackML state transitions, ISO 22400 OEE computation, and closed-loop tool calls via protocols like Model Context Protocol (MCP).
+4. 🌐 **Industrial IoT (IIoT) & Unified Namespace (UNS)**: Deterministic communication brokers routing sensor telemetry over OPC UA, MQTT Sparkplug B, and Modbus.
+5. 🛡️ **Zero-Trust OT Infrastructure & Audit Spines**: Hardened, auditable access layers guaranteeing fail-safe isolation, compliance, and deterministic emergency stop procedures.
 
+---
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, agent-native MES, and open visual inspection pipelines—ideal for manufacturing engineers, plant operators, and developers seeking transparent, vendor-independent dark factory infrastructure.
+## 📊 Sector Overview & Market Dynamics
 
+The global **Dark Factory and Lights-Out Manufacturing market** is valued at approximately **$138.7 billion to $143.6 billion in 2026**, on track to reach over **$280 billion by 2033** with a compound annual growth rate (CAGR) surpassing 10.4%. Concurrently, the broader **Smart Manufacturing and Industrial 4.0 software ecosystem** exceeds **$450 billion** globally, driven by chronic shortages of skilled industrial labor, surging wage inflation, and relentless demand for 24/7 defect-free throughput.
 
+From a competitive standpoint, the sector is characterized by a **hybrid market structure**:
+- **Moderately Concentrated at the Enterprise Platform Level**: Core industrial automation suites and centralized data foundations exhibit oligopolistic dominance. Industrial conglomerates (e.g., Schneider Electric / AVEVA, Rockwell Automation, Siemens, and Honeywell) leverage high switching costs and mission-critical multi-plant SLAs to consolidate large factory footprints.
+- **Highly Fragmented across Machine Vision, IIoT Edge Connectors, and Specialized AI**: Defect inspection, agentic robotics, SMT line monitoring, and frontline video copilot niches remain intensely fragmented. Innovative startups and specialized open-source frameworks rapidly contest the shop floor by providing transparent APIs, open data standards, and modular edge-native deployments.
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+---
 
+## 🏢 SaaS & Hosted Enterprise Platforms
 
+The table below catalogs leading commercial SaaS solutions designed for dark factory operations, ranked in **descending order by company scale (Valuation / Revenue)**.
 
-## Table of Contents
+| SaaS Platform 🏢 | Company Size (Valuation / Revenue) 📈 | Starting Price 💳 | Free Tier / Trial Limits ⏱️ | Core Autonomous & Dark Factory Capabilities ⚙️ |
+|:---|:---|:---|:---|:---|
+| **[Cognite Data Fusion](https://www.cognite.com/)** | **$3.1B Valuation** (Acquired by Schneider Electric, 2026) / **$170M+ ARR** | Starts at ~$8,333/mo ($100,000/yr base platform contract via AWS/Azure private offer) | No self-serve free tier; 30-day guided enterprise sandbox / PoC environment upon qualification | Industrial DataOps platform unifying OT/IT/ET into contextualized knowledge graphs with Atlas AI copilots for automated production tuning. |
+| **[Plex Systems](https://www.plex.com/)** | **$2.22B Valuation** (Acquired by Rockwell Automation) / **$150M+ ARR** | Starts at ~$500/user/mo (or entry production deployments starting at ~$3,000/mo, annual commitment) | No self-serve free tier; custom pilot sandbox & guided product walkthrough for qualified manufacturing plants | Cloud-native ERP & Smart Manufacturing MES providing real-time line telemetry, automated machine work-queues, and automated quality tracking. |
+| **[Tulip Interfaces](https://tulip.co/)** | **$1.3B Valuation** (Unicorn status; $291M total funding) / **$60M+ ARR** | Starts at $100/interface/mo (Essentials plan, billed annually at $1,200/interface/yr; min. 5 interfaces) | 30-day free trial with full access to no-code app builder, Tulip Player, and sandbox runtime for up to 5 devices | Frontline operations and no-code shop floor engine integrating vision inspection, machine triggers, edge sensors, and headless workstation apps. |
+| **[Bright Machines](https://www.brightmachines.com/)** | **~$750M Valuation** ($640M+ raised) / **$40M–$50M ARR** | Starts at ~$150,000/line/yr (Brightware software subscription + robotic cell deployment fees) | No self-serve free tier; structured digital microfactory simulation & live ROI line evaluation | Software-defined microfactories combining modular robotics, adaptive motion vision, and automated cell balancing for lights-out electronics assembly. |
+| **[StrongDM](https://www.strongdm.com/)** | **~$400M Valuation** (Acquired by Delinea, $111M raised) / **$30M ARR** | Starts at $50/user/mo (Zero Trust Infrastructure Access SKU, billed annually) | 14-day free trial with unrestricted access to connect databases, clusters, and servers with full audit replay | Zero Trust Privileged Access Management (PAM) securing unattended remote OT/IT access, jump-hosts, and PLC programming terminals with immutable session recording. |
+| **[Instrumental](https://instrumental.com/)** | **~$250M Valuation** ($81M+ raised, Series C) / **$20M–$28M ARR** | Starts at ~$4,166/mo ($50,000/yr base Trace platform + $2,500/mo/station hardware capture) | No self-serve free tier; 30-day NPI (New Product Introduction) proof-of-concept pilot on active lines | Real-time AI computer vision and visual inspection pipeline that intercepts manufacturing defects and correlates assembly telemetry across electronics lines. |
+| **[Arch Systems](https://archsys.io/)** | **~$175M Valuation** ($45M+ raised, Series B) / **$5M–$10M ARR** | Starts at ~$2,500/machine/yr (ArchFX edge IoT broker connector + cloud operational intelligence) | No self-serve free tier; 30-day plant pilot deployment across up to 10 machines upon engineering qualification | Industrial IoT machine telemetry platform delivering real-time predictive OEE, SMT analytics, and autonomous action recommendations via ArchFX. |
+| **[Augmentir](https://www.augmentir.com/)** | **~$60M Valuation** ($13.5M raised, Series A) / **$4M–$6M ARR** | Starts at $10/user/mo (Core frontline license) scaling to $45/user/mo for AI-guided workflows | No self-serve free tier; 14-day guided enterprise sandbox / pilot available upon sales verification | AI-native connected worker platform offering automated skill matrix tracking, guided digital checklists, and autonomous Kaizen anomaly identification. |
+| **[Drishti](https://drishti.com/)** | **~$50M Valuation** (Acquired by Apple, $37M raised) / **$5M–$10M ARR** (pre-acquisition) | Starts at ~$1,500/camera stream/mo (B2B enterprise line monitoring subscription) | No self-serve free tier; production-line pilot evaluation conducted with OEM engineering teams | Action-recognition computer vision platform that converts video feeds of manual and hybrid assembly cells into structured statistical process control data. |
+| **[Retrocausal](https://retrocausal.ai/)** | **~$25M Valuation** ($15.9M raised) / **$5M–$12M ARR** | Starts at ~$1,200/workstation/mo (Assembly Copilot AI license, annual commitment) | No self-serve free tier; interactive live pilot demonstration & Kaizen ROI diagnostic evaluation | Computer vision AI copilot and workstation auditor preventing assembly mistakes in real-time through audio-visual feedback and automated cycle analytics. |
 
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+---
 
-- [Open-Source GitHub Projects](#open-source-github-projects)
+## 💻 Open-Source Projects & Frameworks
 
-- [How to Contribute](#how-to-contribute)
+Open-source technologies form the backbone of modern, vendor-independent dark factories. The curated repositories below are equipped with live star badges and sorted in **descending order of GitHub stars**.
 
-- [Disclaimer](#disclaimer)
+1. 📦 **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
+   Full-featured, open-source ERP system featuring an extensive **Manufacturing & MES module** (license: GPL-3.0). Automates production order scheduling, nested multi-level Bills of Materials (BOM), work order routing, job card assignment, and capacity planning.
 
+2. 🔀 **[Node-RED](https://github.com/node-red/node-red)** [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)  
+   Low-code visual programming tool for event-driven industrial applications (license: Apache-2.0). Connects shop-floor hardware, industrial PLCs, and cloud APIs with drag-and-drop nodes supporting OPC UA, Modbus, MQTT, and Siemens S7.
 
+3. 📊 **[ThingsBoard](https://github.com/thingsboard/thingsboard)** [![GitHub stars](https://img.shields.io/github/stars/thingsboard/thingsboard?style=social&color=white)](https://github.com/thingsboard/thingsboard/stargazers)  
+   Open-source IoT platform for device telemetry collection, processing, and real-time visualization (license: Apache-2.0). Provides rule-engine automation, device digital twinning, alarms, and MQTT/CoAP/HTTP device connectivity for factory telemetry.
 
-## SaaS/Hosted Platforms
+4. 📡 **[EMQX](https://github.com/emqx/emqx)** [![GitHub stars](https://img.shields.io/github/stars/emqx/emqx?style=social&color=white)](https://github.com/emqx/emqx/stargazers)  
+   Ultra-scalable open-source MQTT platform for IIoT and connected vehicles (license: Apache-2.0). Supports 100M+ concurrent MQTT connections, sub-millisecond latency, and native Sparkplug B compliance for building resilient Unified Namespaces (UNS).
 
+5. 🖼️ **[Albumentations](https://github.com/albumentations-team/albumentations)** [![GitHub stars](https://img.shields.io/github/stars/albumentations-team/albumentations?style=social&color=white)](https://github.com/albumentations-team/albumentations/stargazers)  
+   High-performance image augmentation library (license: MIT) widely deployed across manufacturing inspection pipelines to boost deep learning model accuracy in surface defect classification and optical sorting.
 
+6. 🔍 **[Anomalib](https://github.com/open-edge-platform/anomalib)** [![GitHub stars](https://img.shields.io/github/stars/open-edge-platform/anomalib?style=social&color=white)](https://github.com/open-edge-platform/anomalib/stargazers)  
+   Deep learning anomaly detection library for industrial quality inspection (license: Apache-2.0). Implements state-of-the-art algorithms (PatchCore, PaDiM, Reverse Distillation) for zero-shot and few-shot unsupervised visual defect detection.
 
-- **[Cognite Data Fusion](https://www.cognite.com/)**  
+7. 🔌 **[open62541](https://github.com/open62541/open62541)** [![GitHub stars](https://img.shields.io/github/stars/open62541/open62541?style=social&color=white)](https://github.com/open62541/open62541/stargazers)  
+   Open-source C implementation of OPC UA (OPC Unified Architecture) under Mozilla Public License v2.0. Highly optimized for embedded microcontrollers, edge gateways, and real-time PLCs requiring secure M2M industrial communication.
 
-  Industrial DataOps platform unifying OT and IT data for AI-driven operations. Features industrial knowledge graph, contextualized data models, and AI copilots for production optimization.
+8. ⚙️ **[LinuxCNC](https://github.com/LinuxCNC/linuxcnc)** [![GitHub stars](https://img.shields.io/github/stars/LinuxCNC/linuxcnc?style=social&color=white)](https://github.com/LinuxCNC/linuxcnc/stargazers)  
+   Real-time motion control system for CNC mills, lathes, 3D printers, laser cutters, and robotic arms (license: GPL-2.0). Coordinates up to 9 axes of motion with PREEMPT_RT or RTAI kernel integration for deterministic machining.
 
+9. 🎯 **[OpenPnP](https://github.com/openpnp/openpnp)** [![GitHub stars](https://img.shields.io/github/stars/openpnp/openpnp?style=social&color=white)](https://github.com/openpnp/openpnp/stargazers)  
+   Open-source software for pick-and-place surface mount technology (SMT) assembly machines (license: GPL-3.0). Uses computer vision for fiducial alignment, nozzle calibration, and autonomous electronic component placement.
 
+10. 🏭 **[Apache PLC4X](https://github.com/apache/plc4x)** [![GitHub stars](https://img.shields.io/github/stars/apache/plc4x?style=social&color=white)](https://github.com/apache/plc4x/stargazers)  
+    Universal protocol adapter library for industrial PLCs (license: Apache-2.0). Reads and writes machine state across Siemens S7, Beckhoff ADS, Modbus, Allen-Bradley EtherNet/IP, and Omron Fins without requiring proprietary drivers.
 
-- **[Instrumental](https://instrumental.com/)**  
+11. ☕ **[Eclipse Milo](https://github.com/eclipse-milo/milo)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-milo/milo?style=social&color=white)](https://github.com/eclipse-milo/milo/stargazers)  
+    Pure Java open-source implementation of OPC UA client and server stacks (license: EPL-2.0). Extensively utilized in enterprise Java MES, SCADA bridges, and industrial microservices.
 
-  AI-powered visual inspection platform for manufacturing. Uses computer vision to detect defects on production lines in real time, with active learning to improve detection over time.
+12. 📋 **[qcadoo MES](https://github.com/qcadoo/mes)** [![GitHub stars](https://img.shields.io/github/stars/qcadoo/mes?style=social&color=white)](https://github.com/qcadoo/mes/stargazers)  
+    Open-source web manufacturing execution system tailored for small and medium manufacturing enterprises (license: AGPL-3.0). Covers production scheduling, bill of materials, inventory management, and workstation order fulfillment.
 
+13. 🎛️ **[JSON-SCADA](https://github.com/riclolsen/json-scada)** [![GitHub stars](https://img.shields.io/github/stars/riclolsen/json-scada?style=social&color=white)](https://github.com/riclolsen/json-scada/stargazers)  
+    Portable, scalable SCADA, IIoT, and Industry 4.0 data platform running in an all-in-one Docker stack (license: Apache-2.0). Features MongoDB, PostgreSQL/TimescaleDB, Grafana, OPC UA, DNP3, IEC 60870-5-104, and MQTT Sparkplug B.
 
+14. 🌐 **[Unified Manufacturing Hub](https://github.com/united-manufacturing-hub/united-manufacturing-hub)** [![GitHub stars](https://img.shields.io/github/stars/united-manufacturing-hub/united-manufacturing-hub?style=social&color=white)](https://github.com/united-manufacturing-hub/united-manufacturing-hub/stargazers)  
+    Open-source toolkit and reference architecture for Industrial IoT and Unified Namespaces (license: Apache-2.0). Features OPC UA to MQTT gateways, PackML line simulators, and Kafka/MQTT data broker connectors.
 
-- **[Bright Machines](https://www.brightmachines.com/)**  
+15. 🧠 **[Industrial-ML](https://github.com/YKatser/Industrial-ML)** [![GitHub stars](https://img.shields.io/github/stars/YKatser/Industrial-ML?style=social&color=white)](https://github.com/YKatser/Industrial-ML/stargazers)  
+    Curated repository of industrial machine learning cases, open manufacturing benchmark datasets, academic papers, and anomaly detection codebases for predictive maintenance and process optimization.
 
-  Intelligent automation platform combining robotics, machine vision, and software for electronics assembly. Enables flexible, software-defined manufacturing cells.
+16. ⚡ **[Eclipse 4diac IDE](https://github.com/eclipse-4diac/4diac-ide)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-4diac/4diac-ide?style=social&color=white)](https://github.com/eclipse-4diac/4diac-ide/stargazers)  
+    Open-source integrated development environment for distributed industrial control systems based on the IEC 61499 standard (license: EPL-2.0). Enables vendor-independent, event-driven control logic across multi-vendor PLCs.
 
+17. 🔬 **[Open AOI](https://github.com/ChrnyaevEK/open-aoi)** [![GitHub stars](https://img.shields.io/github/stars/ChrnyaevEK/open-aoi?style=social&color=white)](https://github.com/ChrnyaevEK/open-aoi/stargazers)  
+    Automated Optical Inspection software for industrial camera feeds. Features intuitive graphical inspection configuration, template matching, edge verification, and defect alarms.
 
+18. 🤖 **[FactorySemantics MES](https://github.com/factorysemantics/factorysemantics-mes)** [![GitHub stars](https://img.shields.io/github/stars/factorysemantics/factorysemantics-mes?style=social&color=white)](https://github.com/factorysemantics/factorysemantics-mes/stargazers)  
+    Modular, **agent-native Manufacturing Execution System** (license: Apache-2.0) built on ISA-95, PackML, and ISO 22400 KPIs. Integrates REST and Model Context Protocol (MCP) tool calls, append-only audit spines, and deterministic plant simulation over OPC UA.
 
-- **[Augmentir](https://www.augmentir.com/)**  
+19. 🕹️ **[OSOlogic Platform](https://github.com/OSOlogic/platform)** [![GitHub stars](https://img.shields.io/github/stars/OSOlogic/platform?style=social&color=white)](https://github.com/OSOlogic/platform/stargazers)  
+    Open-source software PLC platform (license: AGPL-3.0) turning any microcontroller (RP2040, STM32, ESP32) or Linux PC into a real-time programmable logic controller accessible via SQL, REST, and OPC UA.
 
-  AI-powered connected worker platform for frontline operations. Features guided workflows, skills management, and real-time production insights.
+20. 🌾 **[Agrync](https://github.com/ManuelMuRodriguez/Agrync)** [![GitHub stars](https://img.shields.io/github/stars/ManuelMuRodriguez/Agrync?style=social&color=white)](https://github.com/ManuelMuRodriguez/Agrync/stargazers)  
+    Open-source industrial IoT gateway unifying Modbus, OPC UA, and FIWARE protocols into a centralized web dashboard; validated on 1,200+ continuous sensor data points in production agro-industrial facilities.
 
+21. 🔒 **[OpenCore MES](https://github.com/opencore-mes/opencore-mes)** [![GitHub stars](https://img.shields.io/github/stars/opencore-mes/opencore-mes?style=social&color=white)](https://github.com/opencore-mes/opencore-mes/stargazers)  
+    Low-code MES engine designed for advanced manufacturing up to 300mm semiconductor fabs (license: Apache-2.0). Features mandatory Design &rarr; Review &rarr; Approval &rarr; Execution workflows backed by hash-chained audit trails.
 
+22. 📈 **[InfluxDB 3 IIoT Reference Architecture](https://github.com/influxdata/influxdb3-ref-iiot)** [![GitHub stars](https://img.shields.io/github/stars/influxdata/influxdb3-ref-iiot?style=social&color=white)](https://github.com/influxdata/influxdb3-ref-iiot/stargazers)  
+    Runnable automotive plant simulation (1 plant &times; 3 lines &times; 8 stations = 24 machines streaming ~300 points/sec) showcasing time-series ingestion, andon dashboards, and real-time Python analytics.
 
-- **[Plex Systems](https://www.plex.com/)**  
+23. 💎 **[Carbon MES](https://github.com/PabloOyarzo/carbon)** [![GitHub stars](https://img.shields.io/github/stars/PabloOyarzo/carbon?style=social&color=white)](https://github.com/PabloOyarzo/carbon/stargazers)  
+    Modern full-stack manufacturing ERP/MES/QMS suite built with Remix, TypeScript, Supabase, and Tailwind (license: AGPL-3.0). Supports nested BoMs, real-time database subscriptions, and MCP server endpoints.
 
-  Cloud ERP and MES for manufacturing. Features production monitoring, quality management, and traceability for discrete and process manufacturing.
+---
 
+## 🏗️ Blueprint Architecture for a Self-Hosted Dark Factory
 
+To assemble a resilient, vendor-independent, fully open-source dark factory management stack:
 
-- **[Tulip Interfaces](https://tulip.co/)**  
+```mermaid
+flowchart TD
+    subgraph Execution_Control["🧠 Level 3 - Autonomous Execution & Orchestration"]
+        FS[FactorySemantics MES / ERPNext]
+        OC[OpenCore Governance & Audit Trail]
+    end
 
-  Frontline operations platform for manufacturing. Enables no-code app building for production tracking, quality inspection, and machine monitoring.
+    subgraph Data_Fabric["🌐 Level 2 - IIoT Unified Namespace (UNS)"]
+        EMQX[EMQX Sparkplug B / MQTT Broker]
+        UMH[Unified Manufacturing Hub / Node-RED]
+        TS[TimescaleDB / InfluxDB 3 Persistence]
+    end
 
+    subgraph Edge_Quality["👁️ Level 1 - Quality Inspection & Automation"]
+        ANO[Anomalib / Open AOI Computer Vision]
+        PLC[Apache PLC4X / OSOlogic Soft-PLC]
+        CNC[LinuxCNC / OpenPnP Pick-and-Place]
+    end
 
+    subgraph Physical_Floor["🤖 Level 0 - Physical Equipment"]
+        ROBOTS[Robotic Arms & Autonomous Mobile Robots]
+        SENSORS[Vibration, Thermal, Torque & Optical Sensors]
+    end
 
-- **[Drishti](https://drishti.com/)**  
+    Execution_Control <--> Data_Fabric
+    Data_Fabric <--> Edge_Quality
+    Edge_Quality <--> Physical_Floor
+```
 
-  AI-powered video analytics for manual assembly lines. Provides real-time cycle time analysis, defect detection, and workstation-level insights without wearables.
+- **Execution & Orchestration**: Deploy **FactorySemantics MES** or **ERPNext** alongside **OpenCore MES** for agent-driven scheduling, MCP tool pipelines, and policy approval gates.
+- **Unified Namespace (UNS)**: Route all plant state through **EMQX** and **Unified Manufacturing Hub**, caching real-time metrics with **TimescaleDB** or **InfluxDB**.
+- **Defect Detection**: Position **Anomalib** on edge accelerators (Intel OpenVINO / NVIDIA Jetson) for millisecond optical inspection.
+- **Machine Interface**: Bridge legacy and modern controllers with **Apache PLC4X** and **open62541**.
 
+---
 
+## 🤝 How to Contribute
 
-- **[Arch Systems](https://archsys.io/)**  
+Contributions from manufacturing engineers, software architects, and industrial automation practitioners are warmly welcomed! 🌟
 
-  Machine data platform for electronics manufacturing. Connects SMT, test, and assembly equipment for real-time OEE, traceability, and analytics.
+1. 🍴 **Fork the repository**.
+2. 🌿 **Create a topic branch**: `git checkout -b feature/add-new-tool`.
+3. 📝 **Add or update an entry**:
+   - For **SaaS**: Include product name, hyperlinked official website, specific starting price, explicit free tier / trial limits, company valuation/revenue scale, and a concise technical description.
+   - For **Open-Source**: Provide the GitHub repo URL, the live Shields.io star badge (`?style=social&color=white`) linking to `/stargazers`, license type, and technical highlights. Sort by stars descending.
+4. 🚀 **Submit a Pull Request** with a brief summary of why the tool is essential for dark factory management.
 
+---
 
+## ⚠️ Safety & Industrial Disclaimers
 
-- **[Retrocausal](https://retrocausal.ai/)**  
+> [!IMPORTANT]
+> **Safety Regulations**: Dark factory implementations controlling physical equipment must strictly adhere to industrial safety standards, including **OSHA**, **ISO 13849** (Safety of Machinery - Safety-related parts of control systems), and **IEC 61508** (Functional Safety). Software-driven emergency stops (E-stops) must never replace physical, hardware-interlocked safety relays.
 
-  AI copilot for manufacturing assembly. Provides real-time work instructions, error-proofing, and process mining from video feeds.
-
-
-
-- **[StrongDM](https://www.strongdm.com/)**  
-
-  Infrastructure access platform ensuring secure, auditable access to production systems. Relevant for dark factories requiring zero-trust access to critical OT infrastructure.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[FactorySemantics MES](https://github.com/factorysemantics/factorysemantics-mes)**  
-
-  An open-source, modular, **agent-native Manufacturing Execution System** (license: Apache-2.0) designed for small-to-mid plants. Kernel + modules architecture with ISA-95 data model, PackML machine states, and ISO 22400 KPIs. **Agent-native**: every function callable via REST and MCP with read tools free, command tools idempotent and approval-gated. Every action lands in an **append-only audit spine**. Runs anywhere from SQLite on a laptop to Docker Compose in a plant. **Simulation-first**: CI runs a full fake plant with deterministic six-station line over real OPC UA server. **The most modern open-source MES for agent-driven production** .
-
-
-
-- **[OpenCore MES](https://github.com/opencore-mes/opencore-mes)**  
-
-  Low-code MES for advanced manufacturing from small plants to **300 mm fabs** (license: Apache-2.0). Engineers design objects, states, roles, rules, screens, transactions and services in a browser designer. **Every change goes through design → review → approval → execution** before reaching the plant. Every write goes through the same policies, rules, and **hash-chained audit trail**. Equipment adapters build on published, versioned contracts. Node 24+ and PostgreSQL required. **The most governance-focused open-source MES available** .
-
-
-
-- **[Carbon](https://github.com/PabloOyarzo/carbon)**  
-
-  Open-source manufacturing ERP/MES/QMS (license: AGPL-3.0). Features ERP, MES, QMS, custom fields, nested BoM, traceability, MRP, configurator, MCP client/server, API, and webhooks. Built with Remix, TypeScript, Supabase, and Tailwind. **Full-stack type safety** from database to UI. Unified auth and permissions across apps with ABAC, RBAC, and row-level security. **Realtime database subscriptions**. **The most complete open-source manufacturing suite for complex assembly and configure-to-order** .
-
-
-
-- **[qcadoo MES](https://github.com/qcadoo/mes)**  
-
-  Friendly web manufacturing software for small and medium companies (license: AGPLv3). 940+ GitHub stars. Combines functions of large ERP systems adapted for SMEs. Community version open source; commercial version adds full support, SaaS deployment, REST API, ERP/SCADA integrations, Gantt planning, and maintenance planning. **The most mature and widely adopted open-source MES for SMEs** .
-
-
-
-- **[OSOlogic Platform](https://github.com/OSOlogic/platform)**  
-
-  Open-source industrial controller platform (license: AGPL-3.0) turning any machine—from tiny MCU to server—into a **real-time industrial controller you own**. Program in Ladder, Structured Text, or any modern language. **Every value is a tag** accessible via SQL, REST, OPC-UA, MQTT, or AI agent. SQL and REST are first-class control interfaces. Runs on PREEMPT_RT Linux, RP2040, STM32, ESP32. **The most ambitious open-source alternative to proprietary PLCs** .
-
-
-
-- **[Unified Manufacturing Hub](https://github.com/united-manufacturing-hub/united-manufacturing-hub)**  
-
-  Open-source toolkit to build reliable and secure **Industrial IoT platforms** (license varies). 271+ GitHub stars. Provides OPC UA gateway to MQTT/GraphQL, manufacturing line simulator with PackML over MQTT, and unified namespace for IIoT transformation. **The most comprehensive open-source IIoT toolkit for factory connectivity** .
-
-
-
-- **[Agrync](https://github.com/ManuelMuRodriguez/Agrync)**  
-
-  Open-source platform unifying Modbus, OPC-UA, and FIWARE protocols into a single web interface for sensor management (license varies). Validated in real agro-industrial facility managing **1,200+ data points** continuously. Data capture rate 98.2%, notification latency P95 84ms, core stack ~406 MiB RAM. **The most production-validated open-source industrial IoT integration layer** .
-
-
-
-- **[Anomalib](https://github.com/openvinotoolkit/anomalib)**  
-
-  Open-source anomaly detection library with state-of-the-art algorithms (license: Apache-2.0). **6,211+ GitHub stars**. Features experiment management, hyperparameter optimization, and edge inference. Supports PaDiM, PatchCore, and other industrial anomaly detection methods. **The most widely adopted open-source library for visual defect detection** .
-
-
-
-- **[Open AOI](https://github.com/open-aoi/open-aoi)**  
-
-  Open-source Automated Optical Inspection platform designed for industrial inspection tasks (license varies). Simple installation, graphical user interface, customization support, and ROS-powered performance. Covers wide range of inspection applications. **The most complete open-source AOI solution** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[JSON-SCADA](https://github.com/riclolsen/json-scada)** — Portable and scalable SCADA/IIoT-I4.0/Gateway platform (license varies). All-in-one Docker image with MongoDB, PostgreSQL/TimescaleDB, Grafana, IEC 60870-5-104, DNP3, OPC UA, MQTT Sparkplug B, and Metabase. **The most comprehensive open-source SCADA stack** .
-
-- **[Industrial-ML](https://github.com/YKatser/Industrial-ML)** — Curated overview of cases, public datasets, books, and academic papers for applying ML in industrial applications. **Essential reference for industrial ML projects** .
-
-- **[InfluxDB 3 IIoT Reference Architecture](https://github.com/influxdata/influxdb3_iiot_reference_architecture)** — Runnable reference architecture simulating automotive assembly plant (1 plant × 3 lines × 8 stations = 24 machines, ~300 points/sec). Includes Processing Engine Python plugins, Last Value Cache, and andon board UI. `docker compose up` in ~2 minutes .
-
-- **[Albumentations](https://github.com/albumentations-team/albumentations)** — Fast image augmentation library (MIT) used in 84+ public industrial/ manufacturing repos for defect detection and quality inspection .
-
-- Community **n8n** workflows for production alerting and dark factory orchestration automation.
-
-
-
-**Frameworks for building custom systems**: Combine **FactorySemantics MES** or **OpenCore MES** as the agent-native execution layer with **OSOlogic** for open PLC control, **Anomalib** or **Open AOI** for visual inspection, **Unified Manufacturing Hub** for IIoT connectivity, and **PostgreSQL + InfluxDB** for persistence—creating a fully self-hosted, enterprise-grade dark factory platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Dark factory systems controlling production equipment must comply with industrial safety regulations (OSHA, ISO 13849, IEC 61508) and implement rigorous safety validation before unattended operation.
-
-- **Open-source dark factory management is emerging, not mature.** FactorySemantics MES and OpenCore MES are recent, ambitious projects—not yet proven at scale . qcadoo MES is mature for SMEs but lacks agent-native and lights-out capabilities . **No single open-source tool provides the end-to-end dark factory orchestration of Cognite or Bright Machines.** Integration work is required.
-
-- **Agent-native MES introduces new safety surfaces.** FactorySemantics makes every function callable via MCP with approval gates and audit spines . OpenCore MES requires design → review → approval → execution for every change . These are essential patterns—never deploy autonomous production control without deterministic policy enforcement.
-
-- **Simulation-first is the correct approach.** FactorySemantics runs a full fake plant in CI with deterministic six-station line and scripted failures . Test dark factory workflows in simulation before touching real equipment.
-
-- **Visual inspection is the mature open-source layer.** Anomalib (6,211+ stars) and Open AOI provide production-grade defect detection . These can serve as the quality layer for dark factory operations.
-
-- Self-hosted open-source solutions require proper security hardening, OT/IT network segmentation, and ongoing maintenance. Dark factories are safety-critical—validation, redundancy, and fail-safe mechanisms are non-negotiable.
+> [!WARNING]
+> **Emerging Open-Source Maturity**: While open-source MES and IIoT tools are advancing rapidly, end-to-end autonomous orchestration requires careful integration testing. Always validate agentic decision-making, automated tool invocations, and PackML state transitions in simulated environments (such as deterministic CI digital twins) prior to commissioning live manufacturing equipment.
